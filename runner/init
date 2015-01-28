@@ -50,4 +50,4 @@ runner="bash -c"
 
 ## Run!
 
-$runner "$command"
+exec $runner "$command"
