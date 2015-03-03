@@ -13,8 +13,9 @@ First, you need Docker. Then you can either pull the image from the public index
 
 Or you can build from this source:
 
-	$ cd slugrunner
-	$ make
+	$ cd cedar && docker build -t qtcs/slugrunner:cedar .
+	or
+	$ cd cedar-14 && docker build -t qtcs/slugrunner:cedar-14 .
 
 When you run the container, it always expects an app slug to be passed via stdin or by giving it a URL using the SLUG_URL environment variable. Lets run a Rake task that our app uses, attaching to stdout:
 
