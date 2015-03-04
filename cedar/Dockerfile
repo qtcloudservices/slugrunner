@@ -1,4 +1,4 @@
-FROM qtcs/cedarish:lucid
+FROM qtcs/cedarish:cedar
 MAINTAINER "Jari Kolehmainen" <jari.kolehmainen@digia.com>
 
 ADD ./runner/ /runner
